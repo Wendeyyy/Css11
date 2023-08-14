@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>posisi static;</h2>
+
+<p>Sebuah elemen dengan position: static; tidak diposisikan dengan cara khusus apa pun; itu selalu diposisikan sesuai dengan aliran normal halaman:</p>
+
+<div class="static">
+ static
+</div>
+
+</body>
+</html>
+<br> <br> <br> <br> <br>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>posisi relative;</h2>
+
+<p>Sebuah elemen dengan position: relative; diposisikan relatif terhadap posisi normalnya:</p>
+
+<div class="relative">
+posisi relative;
+</div>
+
+</body>
+</html>
+<br> <br> <br> <br> <br>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>position fixed</h2>
+
+<p>Sebuah elemen dengan position: fixed; diposisikan relatif terhadap viewport, yang berarti selalu berada di tempat yang sama meskipun halaman di-scroll:</p>
+
+<div class="fixed">
+ posisi fixed
+</div>
+
+<html>
+<head>
+<style>
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+
+
+</body>
+</html>
